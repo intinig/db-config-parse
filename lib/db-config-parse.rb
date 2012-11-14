@@ -24,6 +24,7 @@ module DBConfig
       end
       {:username => configuration['DB_USER'], :password => configuration['DB_PASSWORD'], :database => configuration['DB_HOST']}
     end
+  end
 
   module Prestashop
     def self.parse(config)
